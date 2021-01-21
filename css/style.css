@@ -12,6 +12,8 @@ body{
 
 
 header{
+    display: flex;
+    justify-content: flex-end;
     background-color: #fff;
     padding: 25px 70px;
     box-shadow: 0 0 29px 0 rgb(134, 134, 134, 0.25);
@@ -38,11 +40,11 @@ header ul{
 }
 
 .boton{
-    background-color: #8338ec;
+    background-color: #FF40CF;
     color: white;
     border-radius: 50px;
     padding: 10px 10px 12px 10px;
-    border: 1px solid #8338ec;
+    border: 1px solid #FF40CF;
     cursor: pointer;
     font-size: 14px;
 
@@ -52,39 +54,46 @@ header ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 110px 40px 130px;
-    width: 100vw;
-    
+    width: 100%;
 }
 .primer-texto{
-    width: 50%;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
 }
 .imagen{
-    width: 50%;
+    width: 50vw;
     
+}
+
+.imagencita{
+    width: 500px;
 }
 
 .holasoy{
     color: black;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 40px;
+    font-weight: 900;
 }
 .nombre{
-    color: #8338ec;
-    font-weight: 900;
+    color: #FF40CF;
+    font-weight: 1000;
+    font-size: 50px;
 }
 .profesion{
     color: #616161;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
 .segunda-caja{
     background-color: #f6f7fb; 
+    padding: 110px 40px 130px;
+    
 }
 
 .conocimientos{
@@ -94,27 +103,75 @@ header ul{
     text-align: center;
 }
 .justificado{
-
-    margin-left: 400px;
+    max-width: 400px;
+    margin-left: 450px;
     margin-right: 400px;
     
 }
 .negrita{
-    font-size: 35px;
-    font-weight: 900;
+    font-size: 50px;
+    font-weight: 1000;
 }
 
 
 .logos{
+    width: 900px;
+    margin-top: 40px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    
+    
 }
 .card{
+    background-color: #fff;
+    border: 1px solid #dddfe5;;
+    height: 260px;
+    border-radius: 8px;
+    width: 260px;
+    margin: 10px;
+    padding: 30px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
+.namelogo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fa-html5{
+    color: #e54d26;
+    font-size: 80px;
+}
+.fa-css3-alt{
+    color: #3D8FC6;
+    font-size: 80px;
+}
+
+.fa-sass{
+    color: #CE6C9D;
+    font-size: 80px;
+
+}
+.fa-js{
+    color:#F0DB4F;
+    font-size: 80px;
+}
+.fa-react{
+    color:#61DAFB;
+    font-size: 80px;
+
+}
+.fa-git-alt{
+    color:#F34F29;
+    font-size: 80px;
+}
 .proy{
     border: solid 1px red;
     width: 30vw;
