@@ -13,16 +13,17 @@
     <header>
        
         <ul>
-            <li class="itemmenu">HOLA</li>
-            <li class="itemmenu">CONOCIMIENTOS</li>
-            <li class="itemmenu">PROYECTOS</li>
+            <li class="itemmenu"><a href="#Hola">HOLA</a></li>
+            <li class="itemmenu"><a href="#conocmientos">CONOCIMIENTOS</a></li>
+            <li class="itemmenu"><a href="#proyectos">PROYECTOS</a></li>
             
         </ul>
-        <div class="boton">CONTACTO</div>
+        <a href="#contacto"><div class="boton">CONTACTO</a></div>
     </header>
 
+<!-- Fin del header -->
    
-
+    <a name="Hola"></a>
     <div class="primer-caja">
         
         <div class="primer-texto">
@@ -32,7 +33,7 @@
             
             <p class="profesion">Instrumentadora Quirurgica, Desarrolladora Frontend y peluquera</p>
             <br>
-            <a class="boton">LO QUE HAGO</a>
+            <span class="boton"><a href="#proyectos">LO QUE HAGO</a></span>
         </div>
 
         <div class="imagen">
@@ -41,7 +42,7 @@
         
     </div>
    
-
+    <a name="conocmientos"></a>
     <section class="segunda-caja">
 
         <div class="conocimientos">
@@ -100,10 +101,11 @@
         <p class="someone">Someone</p>
     </div>
 
+
+    <a name="proyectos"></a>
     <section>
 
-        <div  class="caja3">
-        
+        <div  class="caja3">        
         <h2 class="proyectos">Mis Proyectos</h2>
              <p class="lorem2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis voluptatum tenetur! Id, nesciunt?</p>
            
@@ -138,53 +140,64 @@
 
 
     <section>
-        
+        <a name="contacto"></a>
         <div class="cuartacaja">
 
             <div class="formulario">
                 <div class="contactame">
                     <p class="contact">Contactame</p>
                     <p class="centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis voluptatum tenetur! Id, nesciunt? Modi quasi repudiandae quam hic quo, qui cumque nam voluptates, ipsam, tempora eaque numquam eligendi.</p>
-                    <div class="row">
+                    <div class="row phover">
                         <i class="fab fa-twitter fab1"></i>
-                        <p>@GarciaSofia</p>
+                        <p><a href="#Hola">@GarciaSofia</a></p>
                     </div>
-                    <div class="row">
+                    <div class="row phover">
                         <i class="fab fa-github-alt fab1"></i>
-                        <p>Sofiamgarcia93</p>
+                        <p><a href="#Hola">Sofiamgarcia93</a></p>
                     </div>
-                    <div class="row">
+                    <div class="row phover">
                         <i class="fab fa-linkedin-in fab1"></i>
-                        <p>SofiaMacarenaGarcia</p>
+                        <p><a href="#Hola">SofiaMacarenaGarcia</a> </p>
                     </div>
-                    <div class="row">
+                    <div class="row phover">
                         <i class="fas fa-envelope-square fab1"></i>
-                        <p>sofiamgarcia98@gmail.com</p>
+                        <p><a href="#Hola">sofiamgarcia98@gmail.com</a></p>
                     </div>
                 </div>
+
+
                 <div class="escribime">
                     <p class="contact">Escribime</p>
                     <form>
-                        <label for="idnombre">Nombre *</label>
-                        <input type="text" name="nombre" placeholder=" p. ej.: Sofia" id="idnombre">
+                        <div class="fisrtlastname">
+                            <div class="columns">
+                                <label  label for="idnombre">Nombre *</label>
+                                <input type="text" name="nombre" placeholder=" p. ej.: Sofia" id="idnombre">
+                            </div>
 
-                        <label for="idapellido">Apellido *</label>
-                        <input type="text"  name="apellido" placeholder=" p. ej.: Garcia" id="idapellido">
-                        <br>
+                            <div class="columns magin">
+                                <label label  for="idapellido">Apellido *</label>
+                                <input type="text"  name="apellido" placeholder=" p. ej.: Garcia" id="idapellido">
+                            </div>
+                        </div>
 
-                        <label for="idemail">Email *</label>
-                        <input type="email" name="email" placeholder="p. ej.: sofiamgarcia98@gmail.com" id="idemail">
-                        <br>
-                         
+                        <div class="columns">
+                            <label  label for="idemail">Email *</label>
+                            <input type="email" name="email" placeholder="p. ej.: sofiamgarcia98@gmail.com" id="idemail">
+                        
+                        </div>
             
                 
 
-                    </form>
+                   
+                        <div class="columns">
+                            <label label for="idmensaje">Mensaje *</label>
+                            <textarea  name="mensaje" id="idmensaje" cols="30" rows="10" placeholder="Escriba un mensaje aqui" required></textarea><br><br>
+                    </div>
+                    
+                        <button  class="botonsubmit" type="submit">Enviar</button>
 
-                    <label for="idmensaje">Mensaje *</label>
-                    <textarea cols="30" rows="10" name="mensaje" placeholder="Escriba un mensaje aqui" id="idmensaje">
-                        
-                    </textarea>
+                    </form>    
                 </div>
             </div>
         </div>
@@ -192,7 +205,42 @@
            
     </section>
 
-    <footer>
+    <footer class="foot">
+        <div>
+            <ul>
+                <li class="itemfooter"><a href="#Hola">HOLA</a</li>
+                <li class="itemfooter"><a href="#conocmientos">CONOCIMIENTOS</a></li>
+                <li class="itemfooter"><a href="#proyectos">PROYECTOS</a></li>
+                <li class="itemfooter"><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </div>
+
+        <div class="containiconsfoot">
+            <div class="iconsfoot">
+                <i class="fab fa-twitter fab2"></i>
+    
+            </div>
+
+            <div class="iconsfoot">
+                <i class="fab fa-github-alt fab2"></i>
+        
+            </div>
+
+            <div class="iconsfoot">
+                <i class="fab fa-linkedin-in fab2"></i>
+            
+            </div>
+
+            <div class="iconsfoot"> 
+                <i class="fas fa-envelope-square fab2"></i>
+            
+            </div>
+
+        </div>
+
+        <div class="withlove">
+            <p>Hecho con ❤️ por Sofia</p>
+        </div>
 
 
     </footer>

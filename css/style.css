@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
@@ -16,11 +17,11 @@ header{
     display: flex;
     justify-content: flex-end;
     background-color: #fff;
-    padding: 25px 70px;
+    padding: 1.562em 4.375em;
     box-shadow: 0 0 29px 0 rgb(134, 134, 134, 0.25);
     width: 100%;
     position: fixed;
-    height: 90px;
+    height: 5.625em;
 
         
 }
@@ -30,24 +31,63 @@ header ul{
     justify-content: flex-end;
     list-style: none;
     align-items: center;
-    
-      
+}
+
+
+a{
+    text-decoration: none;
 }
 
 .itemmenu{
-    padding-left: 20px;
-    padding-right: 5px;
-    font-size: 16px;
+    padding-left: 1.25em;
+    padding-right: 0.625em;
+    font-size: 18px;
+    color: rgb(97, 88, 88);
+    
 }
 
+.itemmenu:hover {
+    color:#FF40CF;
+
+}
+
+.itemmenu:active{
+
+    color:  rgb(97, 88, 88);
+    padding: 0.625em 0.625em 0.75em 0.625em;
+    border: 1px;
+    border-radius: 100px;
+    box-shadow:0 0 8px  #FF40CF;
+}
+
+.itemmenu:visited{
+    text-decoration: none;
+    color: rgb(97, 88, 88);
+}
+
+
+
+
+
+.boton:hover{
+    background-color: #e088caec;
+    border: 1px solid #e088caec;
+    
+}
+
+.boton:active{
+    box-shadow:0 0 8px  #FF40CF;
+    color: rgb(97, 88, 88);
+}
 .boton{
     background-color: #FF40CF;
     color: white;
     border-radius: 50px;
-    padding: 10px 10px 12px 10px;
+    padding: 0.625em 0.625em 0.75em 0.625em;
     border: 1px solid #FF40CF;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
+    
 
 }
 
@@ -57,11 +97,11 @@ header ul{
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 110px 40px 130px;
+    padding: 6.875em 2.5em 8.125em;
     width: 100%;
 }
 .primer-texto{
-    width: 50vw;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -69,12 +109,12 @@ header ul{
     line-height: 1.6;
 }
 .imagen{
-    width: 50vw;
+    width: 50%;
     
 }
 
 .imagencita{
-    width: 500px;
+    width: 31.25em;
 }
 
 .holasoy{
@@ -96,7 +136,7 @@ header ul{
 .segunda-caja{
     width: 100%;
     background-color: #f6f7fb; 
-    padding: 110px 40px 130px;
+    padding: 6.875em 2.5em 8.125em;
   
 }
 
@@ -107,9 +147,9 @@ header ul{
     text-align: center;
 }
 .justificado{
-    max-width: 400px;
-    margin-left: 450px;
-    margin-right: 400px;
+    max-width: 25em;
+    margin-left: 28.125em;
+    margin-right: 25em;
     
 }
 .negrita{
@@ -119,29 +159,35 @@ header ul{
 
 
 .logos{
-    width: 900px;
-    margin-top: 40px;
+    width: 56.25em;
+    margin-top: 2.5em;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: 200px;
+    margin-left: 12.5em;
     
     
 }
 .card{
     background-color: #fff;
-    border: 1px solid #dddfe5;;
-    height: 260px;
+    border: 1px solid #dddfe5;
+    height: 16.25em;
     border-radius: 8px;
-    width: 260px;
-    margin: 10px;
-    padding: 30px;
+    width: 16.25em;
+    margin: 0.625em;
+    padding: 1.875em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     
+}
+
+
+.card:hover{
+    border: 1px solid #FF40CF;
+
 }
 
 .namelogo{
@@ -180,7 +226,7 @@ header ul{
 .bloqueviolet{
     background-color:  #FF40CF;
     width: 100%;
-    height: 569px;
+    height: 35.562em;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -195,8 +241,8 @@ header ul{
 .lorem{
     color: white;
     text-align: center;
-    margin-left: 285px;
-    margin-right: 264px;
+    margin-left: 17.812em;
+    margin-right: 16.5em;
 
 }
 
@@ -222,39 +268,39 @@ header ul{
     font-weight: 900;
     text-align: center;
     line-height: 1.2;
-    margin-top: 160px;
+    margin-top: 10em;
 }
 
 .lorem2{
-    width: 400px;
-    height: 66px;
+    width: 25em;
+    height: 4.125em;
     font-size: 16px;
     line-height: 1.2;
     display: flex;
     justify-content:  center;
-    margin-left: 470px;
-    margin-top: 50px;
+    margin-left: 29.375em;
+    margin-top: 3.125em;
 
 }
 
 .containerpro{
 
-    height: 1274px;
+    height: 79.625em;
    /* margin-top: 40px;*/
     display: flex;
     flex-wrap: wrap;
-    padding: 110px 40px 110px;
-    margin-left: 100px;
+    padding: 6.875em 2.5em 6.875em;
+    margin-left: 6.25em;
 
 }
 .cardpro{
     background-color: #fff;
     border: 1px solid #dddfe5;;
-    height: 348px;
+    height: 21.75em;
     border-radius: 8px;
-    width: 342px;
-    margin: 10px;
-    padding: 30px;
+    width: 21.375em;
+    margin: 0.625em;
+    padding: 1.875em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,9 +308,15 @@ header ul{
     
 }
 
+.cardpro:hover{
+    border: 1px solid #FF40CF;
+
+}
+
+
 .proyectosname{
     font-weight: 600;
-    margin-top: 250px;
+    margin-top: 15.625em;
 
 }
 
@@ -309,53 +361,228 @@ header ul{
 
 .cuartacaja{
     background-color:#F6F7FB;
-    width: 100vw;
-    height: 689px;
-    padding-top: 200px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 130px;
+    width: 100%;
+    height: 43.062em;
+    padding-top: 12.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 8.125em;
+    margin-bottom: 3.125em;
     
     
 }
 
 .formulario{
-    width: 1102px;
-    height: 638px;
+    width: 68.875em;
+    height: 39.875em;
     background-color: #ffffff;
-    padding: 80px 60px;
+    padding: 5em 3.75em;
     border-radius: 15px;
     border: 1px solid #e0e0e0;
     display: flex;
     flex-direction: row;
-    margin-left: 80px;
+    justify-content: space-evenly;
+    margin-left: 5em;
 }
 .contact{
     font-weight: 900;
     font-size: 45px;
-    text-align: center;
-    margin-bottom: 40px;
+    text-align: left;
+    margin-bottom: 1.5em;
 }
 
 .centre{
     font-size: 16px;
-    margin-top: 20px;
-    max-width: 400px;
+    margin-top: 1.25em;
+    max-width: 25em;
 }
 .row{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin-top: 1.875em;
 }
 
 .fab1{
     color:#FF40CF;
     font-size: 20px;
-    margin-right: 10px;
+    margin-right:  0.625em;
 }
 
+.fab1:hover{
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid #FF40CF;
+    border-radius: 50%;
+    background-color: #FF40CF;
+    color: white;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.row:active{
+    padding: 0.625em;
+    border: 1px;
+    border-radius: 100px;
+    box-shadow:0 0 8px  #FF40CF;
+    
+
+}
+
+.phover:hover{
+    color:#FF40CF;
+    cursor: pointer;
+
+}
 .escribime{
     display: flex;
     flex-direction: column;
    
+}
+
+
+label{
+    margin-bottom: 0.625em;
+    font-weight: 600;
+    margin-top: 0.312em;
+    font-size: 16px;
+}
+input[type=text]{
+    background-color: #F6F7FB;
+    color:  #C0C0C0;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    width: 14em;
+    height: 2.5em;
+
+    
+}
+
+
+/*****
+input[type=text]:focus{
+
+    border: 1px;
+    border-radius: 100px;
+    box-shadow:0 0 8px  #FF40CF;
+
+    
+}*/
+
+input[type=email]{
+    background-color: #F6F7FB;
+    color:  #C0C0C0;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    width: 29em;
+    height: 2.6875em;
+    
+}
+textarea{
+    background-color: #F6F7FB;
+    color:  #C0C0C0;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    width: 29em;
+    height: 10.652em;
+    font-family: 'Roboto Mono';
+}
+
+::placeholder{
+    padding-left: 0.625em;
+    padding: top 0.3225em;;
+}
+
+.fisrtlastname{
+    display: flex;
+    flex-direction: row;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+
+}
+.magin{
+    margin-left: 1.25em;
+}
+
+
+.botonsubmit{
+    background-color: #FF40CF;
+    color: white;
+    border-radius: 50px;
+    padding: 0.9375em 2.375em 0.9375em 2.375em;
+    border: 1px solid #FF40CF;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.botonsubmit:hover{
+    background-color: #e088caec;
+    border: 1px solid #e088caec;
+}
+
+
+.foot{
+    background-color: #FF40CF;
+    width: 100%;
+    height: 18.75em;
+    position: relative;
+    top: 14.8125em;
+
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    padding-top: 4.875em;
+    
+      
+}
+
+.itemfooter{
+    padding-left: 1.25em;
+    padding-right:0.3125em;
+    font-size: 14px;
+    color: white;
+
+}
+
+.containiconsfoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.fab2{
+    color:#FF40CF;
+    font-size: 20px;
+    
+    
+}
+
+.iconsfoot{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 0.625em;
+    margin-top: 2.6875em;
+    width: 2.75em;
+    height: 2.75em;
+    display: flex;
+    display: grid;
+    place-content: center;
+}
+
+.withlove{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5em;
 }
