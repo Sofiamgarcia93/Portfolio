@@ -325,13 +325,21 @@ a{
     justify-content: center;
     
 }
+.cardpro:active {
+    border: 1px solid #FF40CF;
+    box-shadow:0 0 8px  #FF40CF;
+    cursor: pointer;
+    color: #FF40CF;
+}
 
-.cardpro:hover {
+.cardpro:hover, .cardpro:visited:hover {
     border: 1px solid #FF40CF;
     cursor: pointer;
     color: #FF40CF;
 
 }
+
+
 
 .cardpro:hover p{
     color: #FF40CF;
@@ -343,13 +351,17 @@ a{
     color: #FF40CF;
 }
 
-.cardpro1:visited{
-    border: 1px;
-    border-radius: 100px;
-    box-shadow:0 0 8px  #FF40CF;
+.cardpro1:visited {
+    
     text-decoration: none;
     color: black;
    
+}
+
+.cardpro:visited{
+    border: 1px;
+    border-radius: 100px;
+    box-shadow:0 0 8px  #FF40CF;
 }
 
 
@@ -517,7 +529,7 @@ input[type=text]{
     background-color: #F6F7FB;
     color:  #C0C0C0;
     border-radius: 15px;
-   /* border: 1px solid #e0e0e0;*/
+    border: 1px solid #e0e0e0;
     font-size: 14px;
     width: 14em;
     height: 2.5em;
@@ -556,7 +568,7 @@ input[type=email]:focus{
 }
 
 textarea:focus{
-
+    border: 1px solid #e0e0e0;
     border: 1px;
     border-radius: 10px;
     box-shadow:0 0 8px  #FF40CF;
@@ -691,12 +703,17 @@ footer ul{
     place-content: center;
     cursor: pointer;
 }
+
 .fab2:hover{
     color: white;
     font-size: 20px;
     cursor: pointer;
     
     
+}
+
+.itemfooter:visited{
+    color: white;
 }
 
 .withlove{
