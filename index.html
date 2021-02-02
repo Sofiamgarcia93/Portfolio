@@ -13,12 +13,12 @@
     <header>
        
         <ul>
-            <li class="itemmenu"><a href="#Hola">HOLA</a></li>
-            <li class="itemmenu"><a href="#conocmientos">CONOCIMIENTOS</a></li>
-            <li class="itemmenu"><a href="#proyectos">PROYECTOS</a></li>
+            <li class="itemmenu"><a class="hi" href="#Hola">HOLA</a></li>
+            <li class="itemmenu"><a class="hi" href="#conocmientos">CONOCIMIENTOS</a></li>
+            <li class="itemmenu"><a class="hi" href="#proyectos">PROYECTOS</a></li>
             
         </ul>
-        <a href="#contacto"><div class="boton">CONTACTO</a></div>
+        <div class="boton"><a class="botonhov" href="#contacto">CONTACTO</a></div>
     </header>
 
 <!-- Fin del header -->
@@ -33,7 +33,7 @@
             
             <p class="profesion">Instrumentadora Quirurgica, Desarrolladora Frontend y peluquera</p>
             <br>
-            <span class="boton"><a href="#proyectos">LO QUE HAGO</a></span>
+            <span class="boton"><a class="botonhov" href="#proyectos">LO QUE HAGO</a></span>
         </div>
 
         <div class="imagen">
@@ -103,6 +103,7 @@
 
 
     <a name="proyectos"></a>
+
     <section>
 
         <div  class="caja3">        
@@ -112,26 +113,40 @@
         </div>
 
         <div class="containerpro">
+                
                 <div class="cardpro port imagenfondo">
-                    <p class="proyectosname">Portfolio</p>
+                    <a class="cardpro1" href="http://127.0.0.1:5500/index.html#Hola" target="_blank">
+                    <p class="proyectosname">Portfolio</p></a>
                 </div>
+
                 <div class="cardpro memes imagenfondo">
-                    <p class="proyectosname">Generador de memes</p>
+                    <a class="cardpro1" href="http://127.0.0.1:5500/index.html#Hola" target="_blank">
+                    <p class="proyectosname">Generador de memes</p></a>
                 </div>
+
                 <div class="cardpro match imagenfondo">
-                    <p class="proyectosname"> Match 3</p>
+                    <a  class="cardpro1"href="http://127.0.0.1:5500/index.html#Hola" target="_blank">
+                    <p class="proyectosname"> Match 3</p></a>
                 </div>
+
                 <div class="cardpro gastos imagenfondo">
-                    <p class="proyectosname">Controlador de Gastos</p>
+                    <a class="cardpro1" href="http://127.0.0.1:5500/index.html#Hola" target="_blank">
+                    <p class="proyectosname">Controlador de Gastos</p></a>
                 </div>
+
                 <div class="cardpro reunion imagenfondo">
-                    <p class="proyectosname">Administrador de reuniones</p>
+                    <a class="cardpro1" href="http://127.0.0.1:5500/index.html#Hola" target="_blank">
+                    <p class="proyectosname">Administrador de reuniones</p></a>
                 </div>
+
                 <div class="cardpro app imagenfondo">
-                    <p class="proyectosname">Todo app</p>
+                    <a class="cardpro1" href="http://127.0.0.1:5500/index.html#Hola" target="_blank">
+                    <p class="proyectosname">Todo app</p></a>
                 </div>
+
                 <div class="cardpro buscador imagenfondo">
-                    <p class="proyectosname">Buscador de peliculas</p>
+                    <a class="cardpro1" href="http://127.0.0.1:5500/index.html#Hola" target="_blank">
+                    <p class="proyectosname">Buscador de peliculas</p></a>
                 </div>
         </div> 
          
@@ -147,21 +162,24 @@
                 <div class="contactame">
                     <p class="contact">Contactame</p>
                     <p class="centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis voluptatum tenetur! Id, nesciunt? Modi quasi repudiandae quam hic quo, qui cumque nam voluptates, ipsam, tempora eaque numquam eligendi.</p>
-                    <div class="row phover">
+                    
+                    
+                    <div class="row phover phover1">
                         <i class="fab fa-twitter fab1"></i>
-                        <p><a href="#Hola">@GarciaSofia</a></p>
+                        <p class="text"><a class="text" href="#Hola">@GarciaSofia</a></p>
                     </div>
-                    <div class="row phover">
+
+                    <div class="row phover phover1">
                         <i class="fab fa-github-alt fab1"></i>
-                        <p><a href="#Hola">Sofiamgarcia93</a></p>
+                        <p class="text"><a  class="text"href="#Hola">Sofiamgarcia93</a></p>
                     </div>
-                    <div class="row phover">
+                    <div class="row phover  modif">
                         <i class="fab fa-linkedin-in fab1"></i>
-                        <p><a href="#Hola">SofiaMacarenaGarcia</a> </p>
+                        <p class="text"><a class="text" href="#Hola">SofiaMacarenaGarcia</a> </p>
                     </div>
-                    <div class="row phover">
+                    <div class="row phover modif">
                         <i class="fas fa-envelope-square fab1"></i>
-                        <p><a href="#Hola">sofiamgarcia98@gmail.com</a></p>
+                        <p class="text"><a class="text" href="#Hola">sofiamgarcia98@gmail.com</a></p>
                     </div>
                 </div>
 
@@ -171,19 +189,19 @@
                     <form>
                         <div class="fisrtlastname">
                             <div class="columns">
-                                <label  label for="idnombre">Nombre *</label>
-                                <input type="text" name="nombre" placeholder=" p. ej.: Sofia" id="idnombre">
+                                <label   for="idnombre">Nombre *</label>
+                                <input type="text" name="nombre" placeholder=" p. ej.: Sofia" id="idnombre" required>
                             </div>
 
                             <div class="columns magin">
-                                <label label  for="idapellido">Apellido *</label>
-                                <input type="text"  name="apellido" placeholder=" p. ej.: Garcia" id="idapellido">
+                                <label   for="idapellido">Apellido *</label>
+                                <input type="text"  name="apellido" placeholder=" p. ej.: Garcia" id="idapellido" required>
                             </div>
                         </div>
 
                         <div class="columns">
-                            <label  label for="idemail">Email *</label>
-                            <input type="email" name="email" placeholder="p. ej.: sofiamgarcia98@gmail.com" id="idemail">
+                            <label   for="idemail">Email *</label>
+                            <input   class="casillero" type="email" name="email" placeholder="p. ej.: sofiamgarcia98@gmail.com" id="idemail" required>
                         
                         </div>
             
@@ -191,9 +209,9 @@
 
                    
                         <div class="columns">
-                            <label label for="idmensaje">Mensaje *</label>
+                            <label  for="idmensaje">Mensaje *</label>
                             <textarea  name="mensaje" id="idmensaje" cols="30" rows="10" placeholder="Escriba un mensaje aqui" required></textarea><br><br>
-                    </div>
+                        </div>
                     
                         <button  class="botonsubmit" type="submit">Enviar</button>
 
@@ -216,24 +234,37 @@
         </div>
 
         <div class="containiconsfoot">
+
             <div class="iconsfoot">
-                <i class="fab fa-twitter fab2"></i>
+
+                <a href="#Hola">
+                    <i class="fab fa-twitter fab2"></i>
+                </a>
     
             </div>
 
             <div class="iconsfoot">
-                <i class="fab fa-github-alt fab2"></i>
+
+                <a href="#Hola">
+                    <i class="fab fa-github-alt fab2"></i>
+                </a>    
         
             </div>
 
             <div class="iconsfoot">
-                <i class="fab fa-linkedin-in fab2"></i>
-            
+
+                <a href="#Hola">
+                    <i class="fab fa-linkedin-in fab2"></i>
+                </a>                   
+  
+
             </div>
 
             <div class="iconsfoot"> 
-                <i class="fas fa-envelope-square fab2"></i>
-            
+
+                <a href="#Hola">
+                    <i class="fas fa-envelope-square fab2"></i>
+                 </a>
             </div>
 
         </div>
@@ -244,5 +275,6 @@
 
 
     </footer>
+
 </body>
 </html>

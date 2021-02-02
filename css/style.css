@@ -42,27 +42,34 @@ a{
     padding-left: 1.25em;
     padding-right: 0.625em;
     font-size: 18px;
-    color: rgb(97, 88, 88);
+    color: black;
     
 }
 
-.itemmenu:hover {
+
+.hi{
+    text-decoration: none;
+}
+
+.hi:hover, .hi:visited:hover {
     color:#FF40CF;
 
 }
 
-.itemmenu:active{
+.hi:active{
 
-    color:  rgb(97, 88, 88);
+    color:  #FF40CF;
     padding: 0.625em 0.625em 0.75em 0.625em;
     border: 1px;
     border-radius: 100px;
     box-shadow:0 0 8px  #FF40CF;
+    text-decoration: none;
 }
 
-.itemmenu:visited{
-    text-decoration: none;
-    color: rgb(97, 88, 88);
+.hi:visited{
+  
+    color: black;
+    
 }
 
 
@@ -72,13 +79,23 @@ a{
 .boton:hover{
     background-color: #e088caec;
     border: 1px solid #e088caec;
+    color: white;
+    text-decoration: none;
     
 }
 
 .boton:active{
     box-shadow:0 0 8px  #FF40CF;
-    color: rgb(97, 88, 88);
+    color: white;
+    text-decoration: none;
 }
+
+.botonhov:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
 .boton{
     background-color: #FF40CF;
     color: white;
@@ -87,6 +104,7 @@ a{
     border: 1px solid #FF40CF;
     cursor: pointer;
     font-size: 16px;
+    text-decoration: none;
     
 
 }
@@ -268,7 +286,7 @@ a{
     font-weight: 900;
     text-align: center;
     line-height: 1.2;
-    margin-top: 10em;
+    margin-top: 3em;
 }
 
 .lorem2{
@@ -308,15 +326,37 @@ a{
     
 }
 
-.cardpro:hover{
+.cardpro:hover {
     border: 1px solid #FF40CF;
+    cursor: pointer;
+    color: #FF40CF;
 
+}
+
+.cardpro:hover p{
+    color: #FF40CF;
+}
+
+
+
+.proyectosname:hover{
+    color: #FF40CF;
+}
+
+.cardpro1:visited{
+    border: 1px;
+    border-radius: 100px;
+    box-shadow:0 0 8px  #FF40CF;
+    text-decoration: none;
+    color: black;
+   
 }
 
 
 .proyectosname{
     font-weight: 600;
     margin-top: 15.625em;
+
 
 }
 
@@ -326,6 +366,7 @@ a{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .memes{
     background-image: url("../imagen/undraw_project_team_lc5a.png");
 }
@@ -408,7 +449,8 @@ a{
     margin-right:  0.625em;
 }
 
-.fab1:hover{
+
+.phover:hover .fab1{
     width: 1.5em;
     height: 1.5em;
     border: 1px solid #FF40CF;
@@ -418,22 +460,46 @@ a{
     display: grid;
     place-content: center;
     cursor: pointer;
+
 }
 
-.row:active{
-    padding: 0.625em;
+.phover:hover .text{
+    color:#FF40CF;
+    cursor: pointer;
+}
+
+
+.text:hover, .text:visited:hover{
+    color:#FF40CF;
+}
+
+.text:visited{
+    color: black;
+}
+
+.phover1:active {
+    width: 10.625em;
+    height: 3em;
+    padding: 0.625em 0.625em 0.75em 0.625em;
     border: 1px;
-    border-radius: 100px;
+    border-radius: 50px;
     box-shadow:0 0 8px  #FF40CF;
     
 
 }
 
-.phover:hover{
-    color:#FF40CF;
-    cursor: pointer;
+.modif:active {
+    width: 17em;
+    height: 3em;
+    padding: 0.625em 0.625em 0.75em 0.625em;
+    border: 1px;
+    border-radius: 50px;
+    box-shadow:0 0 8px  #FF40CF;
+    
 
 }
+
+
 .escribime{
     display: flex;
     flex-direction: column;
@@ -451,24 +517,53 @@ input[type=text]{
     background-color: #F6F7FB;
     color:  #C0C0C0;
     border-radius: 15px;
-    border: 1px solid #e0e0e0;
+   /* border: 1px solid #e0e0e0;*/
     font-size: 14px;
     width: 14em;
     height: 2.5em;
+    border: none;
 
     
 }
 
+.casillero:valid{
+    border: 1px solid green;
+}
 
-/*****
+.casillero:invalid{
+    border: red;
+}
+
+
 input[type=text]:focus{
 
     border: 1px;
     border-radius: 100px;
     box-shadow:0 0 8px  #FF40CF;
+    outline: none;
 
     
-}*/
+}
+
+input[type=email]:focus{
+
+    border: 1px;
+    border-radius: 100px;
+    box-shadow:0 0 8px  #FF40CF;
+    outline: none;
+
+    
+}
+
+textarea:focus{
+
+    border: 1px;
+    border-radius: 10px;
+    box-shadow:0 0 8px  #FF40CF;
+    outline: none;
+
+    
+}
 
 input[type=email]{
     background-color: #F6F7FB;
@@ -478,6 +573,7 @@ input[type=email]{
     font-size: 14px;
     width: 29em;
     height: 2.6875em;
+    border: none;
     
 }
 textarea{
@@ -579,6 +675,28 @@ footer ul{
     display: flex;
     display: grid;
     place-content: center;
+}
+
+
+.iconsfoot:hover{
+
+    background-color: #FF40CF;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 0.625em;
+    margin-top: 2.6875em;
+    width: 2.75em;
+    height: 2.75em;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+.fab2:hover{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
 }
 
 .withlove{
