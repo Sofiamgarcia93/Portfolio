@@ -12,6 +12,7 @@ body{
     box-shadow: inset -20px 0 29px rgb(134, 134, 134, 0.25);
 }
 
+/* ESTILOS DEL HEADER */
 
 header{
     display: flex;
@@ -50,6 +51,9 @@ a{
 .hi{
     text-decoration: none;
 }
+
+
+/* HOVERS  DEL HEADER */
 
 .hi:hover, .hi:visited:hover {
     color:#FF40CF;
@@ -108,6 +112,12 @@ a{
     
 
 }
+
+/* FIN ESTILOS DEL HEADER */
+
+
+/* Estilos de section CONOCIMIENTOS*/
+
 
 .primer-caja{
     display: flex;
@@ -203,6 +213,8 @@ a{
 }
 
 
+
+
 .card:hover{
     border: 1px solid #FF40CF;
 
@@ -241,6 +253,13 @@ a{
     font-size: 80px;
 }
 
+
+
+/* FIN  Estilos de section CONOCIMIENTOS*/
+
+
+/* Estilos de section LOREM*/
+
 .bloqueviolet{
     background-color:  #FF40CF;
     width: 100%;
@@ -271,6 +290,10 @@ a{
     text-align: center;
 }
 
+
+/* FIN Estilos de section LOREM*/
+
+/* Estilos de section PROYECTOS*/
 
 .caja3{
     display: flex;
@@ -331,6 +354,8 @@ a{
     cursor: pointer;
     color: #FF40CF;
 }
+
+/* Estilos HOVER de section PROYECTOS*/
 
 .cardpro:hover, .cardpro:visited:hover {
     border: 1px solid #FF40CF;
@@ -409,8 +434,10 @@ a{
 
 
 
+/* FIN  Estilos de section PROYECTOS*/
 
 
+/* Estilos de section CONTACTO*/
 
 .cuartacaja{
     background-color:#F6F7FB;
@@ -461,6 +488,8 @@ a{
     margin-right:  0.625em;
 }
 
+
+/* Estilos HOVER de section CONTACTO*/
 
 .phover:hover .fab1{
     width: 1.5em;
@@ -518,6 +547,7 @@ a{
    
 }
 
+/* FORMULARIO */
 
 label{
     margin-bottom: 0.625em;
@@ -635,6 +665,13 @@ textarea{
 }
 
 
+
+/* FIN Estilos de section CONTACTO*/
+
+
+
+/* Estilos de FOOTER*/
+
 .foot{
     background-color: #FF40CF;
     width: 100%;
@@ -689,6 +726,7 @@ footer ul{
     place-content: center;
 }
 
+/* Estilos HOVER  de FOOTER*/
 
 .iconsfoot:hover{
 
@@ -720,4 +758,20 @@ footer ul{
     display: flex;
     justify-content: center;
     margin-top: 2.5em;
+}
+
+
+/* FIN  Estilos de FOOTER*/
+
+/* RESPONSIVE */
+
+
+@media screen and (max-width: 576px){
+    
+
+
+
+
+
+
 }
