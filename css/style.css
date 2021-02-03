@@ -313,14 +313,17 @@ a{
 }
 
 .lorem2{
-    width: 25em;
+   width: 25em;
     height: 4.125em;
     font-size: 16px;
     line-height: 1.2;
     display: flex;
     justify-content:  center;
-    margin-left: 29.375em;
+    align-items: center;
+    text-align: center;
+   margin-left: 29.375em;
     margin-top: 3.125em;
+
 
 }
 
@@ -348,6 +351,9 @@ a{
     justify-content: center;
     
 }
+
+/* Estilos HOVER de section PROYECTOS*/
+
 .cardpro:active {
     border: 1px solid #FF40CF;
     box-shadow:0 0 8px  #FF40CF;
@@ -355,7 +361,7 @@ a{
     color: #FF40CF;
 }
 
-/* Estilos HOVER de section PROYECTOS*/
+
 
 .cardpro:hover, .cardpro:visited:hover {
     border: 1px solid #FF40CF;
@@ -488,6 +494,15 @@ a{
     margin-right:  0.625em;
 }
 
+.fableft{
+    display: flex;
+    flex-direction: column;
+}
+.fabrigth{
+    display: flex;
+    flex-direction: column;
+
+}
 
 /* Estilos HOVER de section CONTACTO*/
 
@@ -794,9 +809,168 @@ footer ul{
       width: 100%;
       
   }
+
+  .segunda-caja{
+    width: 100%;
+    background-color: #f6f7fb; 
+    padding: 0;
   
-  }
+}
+.justificado{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3.80em;
+    margin-right: 0;
+    
+}
+  
+.logos{
+    width: 35.25em;
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0.5em;
+
+}
+.card{
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    height: 16.25em;
+    border-radius: 8px;
+    width: 14.25em;
+    margin: 0.625em;
+    padding: 1.875em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 
+.bloqueviolet{
+    background-color:  #FF40CF;
+    width: 100%;
+    height: 35.562em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.6;
+}
+.lorem{
+    color: white;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+
+}
+
+.caja3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.lorem2{
+    width: 25em;
+    height: 4.125em;
+    font-size: 16px;
+    line-height: 1.2;
+    display: flex;
+    justify-content:  center;
+    margin-left: 3em;
+    margin-top: 3.125em;
+
+}
+.containerpro{
+
+    height: auto;
+   /* margin-top: 40px;*/
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6.875em 2.5em 6.875em;
+    margin-left: 2.25em;
+
+}
+.cardpro{
+    background-color: #fff;
+    border: 1px solid #dddfe5;;
+    height: 27.75em;
+    border-radius: 8px;
+    width: 27.375em;
+    margin: 0.625em;
+    padding: 1.875em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.proyectosname{
+    font-weight: 600;
+    margin-top: 18.625em;
+
+
+}
+
+.cuartacaja{
+    background-color:#ffffff;
+    width: 100%;
+    height: auto;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+
+.formulario{
+
+    background-color: #ffffff;
+    padding: 5em 3.75em;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 0;
+}
+
+
+.contactame{
+    padding-left: 0.25em;
+}
+
+.fableft{
+    display: flex;
+    flex-direction: row;
+    margin-right: 025em;
+}
+.fabrigth{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.escribime{
+    padding-top: 4em;
+}
+
+.anclasfooter{
+    display: none;
+}
+
+.containiconsfoot{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5em;
+}
 
 }
