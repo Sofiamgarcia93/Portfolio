@@ -766,11 +766,36 @@ footer ul{
 /* RESPONSIVE */
 
 
-@media screen and (max-width: 576px){
-    
-
-
-
+@media screen and (max-width: 576px) {
+    header {
+      display: none;
+    }
+  
+  
+  .primer-caja{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+  }
+  
+  .primer-texto{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      line-height: 1.6;
+  }
+  
+  .imagen{
+      width: 100%;
+      
+  }
+  
+  }
 
 
 
