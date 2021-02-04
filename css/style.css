@@ -142,7 +142,7 @@ a{
 }
 
 .imagencita{
-    width: 31.25em;
+    width: 27.25em;
 }
 
 .holasoy{
@@ -187,24 +187,24 @@ a{
 
 
 .logos{
-    width: 56.25em;
-    margin-top: 2.5em;
+    width: 100%;
+    margin-top: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: 12.5em;
+    /*margin-left: 12.5em;*/
     
     
 }
 .card{
     background-color: #fff;
     border: 1px solid #dddfe5;
-    height: 16.25em;
     border-radius: 8px;
-    width: 16.25em;
+    height: 19em;
+    width: 19em;
     margin: 0.625em;
-    padding: 1.875em;
+    /*padding: 1.875em;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -448,12 +448,12 @@ a{
 .cuartacaja{
     background-color:#F6F7FB;
     width: 100%;
-    height: 43.062em;
+    height: auto;
     padding-top: 12.5em;
     padding-left: 2.5em;
     padding-right: 2.5em;
-    padding-bottom: 8.125em;
-    margin-bottom: 3.125em;
+    padding-bottom: 12.5em;
+   
     
     
 }
@@ -462,7 +462,7 @@ a{
     width: 68.875em;
     height: 39.875em;
     background-color: #ffffff;
-    padding: 5em 3.75em;
+    padding: 5em 3.75em 5em 3.75em;
     border-radius: 15px;
     border: 1px solid #e0e0e0;
     display: flex;
@@ -827,7 +827,7 @@ footer ul{
 }
   
 .logos{
-    width: 35.25em;
+    width: 100%;
     margin-top: 2.5em;
     display: flex;
     justify-content: center;
@@ -931,9 +931,9 @@ footer ul{
 
 
 .formulario{
-
+    width:100%;
     background-color: #ffffff;
-    padding: 5em 3.75em;
+    padding: 5em 1.75em;
     border: none;
     display: flex;
     flex-direction: column;
@@ -943,17 +943,33 @@ footer ul{
 
 
 .contactame{
-    padding-left: 0.25em;
+    width: 100%;
+    padding-left: 0.010em;
+    padding-right: 0.10em;
 }
 
 .fableft{
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin-right: 025em;
 }
 .fabrigth{
+    width: 100%;
     display: flex;
     flex-direction: row;
+
+}
+.fab1{
+    color:#FF40CF;
+    font-size: 15px;
+    margin-right: 0.010em;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.875em;
+    
 
 }
 
@@ -964,6 +980,7 @@ footer ul{
 .anclasfooter{
     display: none;
 }
+
 
 .containiconsfoot{
     display: flex;
