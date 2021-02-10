@@ -55,7 +55,8 @@ a{
 
 /* HOVERS  DEL HEADER */
 
-.hi:hover, .hi:visited:hover {
+
+.hi:hover, .hi:visited:hover, .hi:link:hover{
     color:#FF40CF;
 
 }
@@ -70,7 +71,7 @@ a{
     text-decoration: none;
 }
 
-.hi:visited{
+.hi:visited, .hi:link{
   
     color: black;
     
@@ -94,7 +95,7 @@ a{
     text-decoration: none;
 }
 
-.botonhov:visited{
+.botonhov:visited, .botonhov:link{
     color: white;
     text-decoration: none;
 }
