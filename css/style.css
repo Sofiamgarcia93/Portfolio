@@ -530,7 +530,7 @@ a{
     color:#FF40CF;
 }
 
-.text:visited{
+.text:visited, .text:link{
     color: black;
 }
 
