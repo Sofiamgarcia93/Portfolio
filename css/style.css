@@ -110,7 +110,8 @@ a{
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
-    
+    margin-left: 0.625em;
+    box-shadow:0 0 8px  #ffffff;
 
 }
 
@@ -136,9 +137,11 @@ a{
     align-items: flex-start;
     text-align: left;
     line-height: 1.6;
+    padding-left: 5em;
 }
 .imagen{
     width: 50%;
+    padding-left: 4em;
     
 }
 
@@ -213,12 +216,16 @@ a{
     
 }
 
-
+/* Hovers de segunda caja */
 
 
 .card:hover{
     border: 1px solid #FF40CF;
 
+}
+
+.namelogo:hover{
+    color: #FF40CF;
 }
 
 .namelogo{
@@ -341,9 +348,9 @@ a{
 .cardpro{
     background-color: #fff;
     border: 1px solid #dddfe5;;
-    height: 21.75em;
+    height: 21em;
     border-radius: 8px;
-    width: 21.375em;
+    width: 21em;
     margin: 0.625em;
     padding: 1.875em;
     display: flex;
@@ -383,7 +390,7 @@ a{
     color: #FF40CF;
 }
 
-.cardpro1:visited {
+.cardpro1:visited, .cardpro1:link {
     
     text-decoration: none;
     color: black;
@@ -454,6 +461,8 @@ a{
     padding-left: 2.5em;
     padding-right: 2.5em;
     padding-bottom: 12.5em;
+    display: flex;
+    justify-content: center;
    
     
     
@@ -469,7 +478,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: 5em;
+   
 }
 .contact{
     font-weight: 900;
@@ -493,6 +502,14 @@ a{
     color:#FF40CF;
     font-size: 20px;
     margin-right:  0.625em;
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
 }
 
 .fableft{
@@ -732,6 +749,7 @@ footer ul{
 .iconsfoot{
     background-color: white;
     border: 1px solid white;
+    color: #FF40CF;
     border-radius: 50%;
     margin-right: 0.625em;
     margin-top: 2.6875em;
@@ -744,7 +762,7 @@ footer ul{
 
 /* Estilos HOVER  de FOOTER*/
 
-.iconsfoot:hover{
+.iconsfoot:hover {
 
     background-color: #FF40CF;
     border: 1px solid white;
@@ -758,7 +776,7 @@ footer ul{
     cursor: pointer;
 }
 
-.fab2:hover{
+.fab2:hover {
     color: white;
     font-size: 20px;
     cursor: pointer;
@@ -783,6 +801,7 @@ footer ul{
 
 
 @media screen and (max-width: 576px) {
+
     header {
       display: none;
     }
@@ -794,7 +813,8 @@ footer ul{
       flex-direction: column;
       align-items: center;
       text-align: center;
-      justify-content: space-between;
+      padding: 0;
+     
   }
   
   .primer-texto{
@@ -804,12 +824,19 @@ footer ul{
       align-items: center;
       text-align: center;
       line-height: 1.6;
+      padding: 0;
   }
   
   .imagen{
       width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-left: 0;
       
   }
+  .imagencita{
+    width: 18em;
+}
 
   .segunda-caja{
     width: 100%;
@@ -817,12 +844,16 @@ footer ul{
     padding: 0;
   
 }
+.negrita{
+    font-size: 36px;
+    font-weight: 900;
+}
 .justificado{
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-left: 3.80em;
+    margin-left: 0;
     margin-right: 0;
     
 }
@@ -856,7 +887,7 @@ footer ul{
 .bloqueviolet{
     background-color:  #FF40CF;
     width: 100%;
-    height: 35.562em;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -881,14 +912,15 @@ footer ul{
 
 
 .lorem2{
-    width: 25em;
+    width: 100%;
     height: 4.125em;
     font-size: 16px;
     line-height: 1.2;
     display: flex;
     justify-content:  center;
-    margin-left: 3em;
-    margin-top: 3.125em;
+    text-align: center;
+    margin-left:0;
+    margin-top: 1em;
 
 }
 .containerpro{
@@ -934,7 +966,7 @@ footer ul{
 .formulario{
     width:100%;
     background-color: #ffffff;
-    padding: 5em 1.75em;
+    padding: 0;
     border: none;
     display: flex;
     flex-direction: column;
@@ -945,21 +977,23 @@ footer ul{
 
 .contactame{
     width: 100%;
-    padding-left: 0.010em;
-    padding-right: 0.10em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+.contact{
+    font-size: 30px;
 }
 
 .fableft{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-right: 025em;
 }
 .fabrigth{
     width: 100%;
     display: flex;
-    flex-direction: row;
-
+    flex-direction: column;
 }
 .fab1{
     color:#FF40CF;
@@ -976,8 +1010,81 @@ footer ul{
 
 .escribime{
     padding-top: 4em;
+    height: auto;
 }
 
+label{
+    margin-bottom: 0.625em;
+    font-weight: 600;
+    margin-top: 0.312em;
+    font-size: 16px;
+}
+input[type=text]{
+    background-color: #F6F7FB;
+    color:  #C0C0C0;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    width: 8em;
+    height: 2.5em;
+    border: none;
+
+    
+}
+
+
+
+input[type=email]{
+    background-color: #F6F7FB;
+    color:  #C0C0C0;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    width: 16em;
+    height: 2.6875em;
+    border: none;
+    
+}
+textarea{
+    background-color: #F6F7FB;
+    color:  #C0C0C0;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    width: 16em;
+    height: 8em;
+    font-family: 'Roboto Mono';
+}
+
+::placeholder{
+    padding-left: 0.625em;
+    padding: top 0.3225em;;
+}
+
+.fisrtlastname{
+    display: flex;
+    flex-direction: row;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+
+}
+.magin{
+    margin-left: 1.25em;
+}
+
+
+.foot{
+    background-color: #FF40CF;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 25em;
+    padding-bottom: 10em;
+
+} 
 .anclasfooter{
     display: none;
 }
