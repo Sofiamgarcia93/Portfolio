@@ -724,6 +724,14 @@ footer ul{
     
       
 }
+.anclasfooter ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding-top: 2em;
+
+}
 
 .itemfooter{
     padding-left: 1.25em;
