@@ -784,7 +784,7 @@ footer ul{
     cursor: pointer;
 }
 
-.fab2:hover {
+.iconsfoot:hover .fab2{
     color: white;
     font-size: 20px;
     cursor: pointer;
