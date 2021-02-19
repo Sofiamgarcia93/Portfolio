@@ -671,29 +671,27 @@ textarea:focus{
     color: red;
     width: 20px;
     height: 20px;
-    display: none;
-    position: relative;
-    bottom: 50px;
-    left: 380px;
   }
 
 .icon-valid {
     color: green;
     width: 20px;
     height: 20px;
+
+  }
+  
+.icon-valid,
+.icon-invalid{
     display: none;
     position: relative;
     bottom: 50px;
     left: 380px;
-  }
-  
 
+}
 
-
-
-input:valid ~ .icon-valid,
-input:not(:placeholder-shown):invalid ~ .icon-invalid {
-  display: block;
+input:valid ~.icon-valid,
+input:not(:placeholder-shown):invalid ~ .icon-invalid{
+    display:flex;
 }
 
 
