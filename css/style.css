@@ -601,15 +601,6 @@ input[type=text]{
     
 }
 
-.casillero:valid{
-    border: 1px solid green;
-}
-
-.casillero:invalid{
-    border: red;
-}
-
-
 input[type=text]:focus{
 
     border: 1px;
@@ -640,7 +631,7 @@ textarea:focus{
     
 }
 
-input[type=email]{
+.form__input{
     background-color: #F6F7FB;
     color:  #C0C0C0;
     border-radius: 15px;
@@ -651,6 +642,61 @@ input[type=email]{
     border: none;
     
 }
+
+.form__input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+.form__input:valid:focus {
+    box-shadow: 0px 0px 5px #88c459;
+  }
+  
+.form__input:invalid:not(:placeholder-shown):focus {
+    box-shadow: 0px 0px 5px #f5414f;
+  }
+  
+.form__input:invalid:not(:placeholder-shown){
+    border: 1px solid #f5414f;
+  }
+  
+.form__input:valid{
+    border: 1px solid #88c459;
+  }
+
+
+.icon-invalid {
+    color: red;
+    width: 20px;
+    height: 20px;
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 380px;
+  }
+
+.icon-valid {
+    color: green;
+    width: 20px;
+    height: 20px;
+    display: none;
+    position: relative;
+    bottom: 50px;
+    left: 380px;
+  }
+  
+
+
+
+
+input:valid ~ .icon-valid,
+input:not(:placeholder-shown):invalid ~ .icon-invalid {
+  display: block;
+}
+
+
 textarea{
     background-color: #F6F7FB;
     color:  #C0C0C0;
